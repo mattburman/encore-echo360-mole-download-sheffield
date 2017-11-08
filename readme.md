@@ -10,7 +10,7 @@ $ node .
 ## Prompts
 + MOLE username
 + MOLE password
-+ output filepath
++ output relative filepath e.g. ../output.json
 + modules (JSON array of strings of substring matching module name) (case insensitive)
 
 ## Output
