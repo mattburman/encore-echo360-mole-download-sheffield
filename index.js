@@ -1,9 +1,137 @@
-const s = "{\"deck\":null,\"startTime\":0,\"startSlide\":null,\"institutionLogo\":\"https:\/\/uk-org-echo360-alpprod-eu-west-filepicker.s3.amazonaws.com\/697ada38-0a23-4834-a2db-2e9b212c7a54\/pKKFrKdbSIuUWWLuH5km_logo.png\",\"institutionName\":\"University of Sheffield\",\"isMobile\":false,\"lesson\":{\"id\":\"G_5ecae294-d23d-4c69-84d8-9809ef95e064_005a9c1f-3135-4160-939d-4bc37a7cf870_2017-09-26T16:00:00.000_2017-09-26T17:00:00.000\",\"institutionId\":\"697ada38-0a23-4834-a2db-2e9b212c7a54\",\"sectionId\":\"005a9c1f-3135-4160-939d-4bc37a7cf870\",\"captureOccurrenceId\":\"5ecae294-d23d-4c69-84d8-9809ef95e064_20170926T1500\",\"name\":\"COM3502.A.181975 - Speech Processing\",\"timing\":{\"start\":\"2017-09-26T16:00:00.000\",\"end\":\"2017-09-26T17:00:00.000\"},\"timeZone\":{\"id\":\"Europe\/London\",\"name\":\"(+00:00) Europe\/London\",\"standardOffset\":\"PT0S\"},\"fromSchedule\":true,\"shouldStreamLive\":false,\"createdAt\":\"2017-09-26T16:01:00.114Z\",\"updatedAt\":\"2017-09-26T16:01:00.114Z\",\"displayName\":\"COM3502.A.181975 - Speech Processing\"},\"live\":false,\"questionsEnabled\":false,\"role\":\"Student\",\"section\":{\"section\":{\"id\":\"005a9c1f-3135-4160-939d-4bc37a7cf870\",\"institutionId\":\"697ada38-0a23-4834-a2db-2e9b212c7a54\",\"courseId\":\"139baaa6-39e2-4a56-851b-038310a707bc\",\"termId\":\"2b402334-7de2-4544-b91b-a0a3d1ef3435\",\"scheduleIds\":[\"05641b4a-7676-4be8-9500-c0389a96a76f\",\"191a25a5-0906-4202-9bc0-821f229040ba\",\"bf7ab617-cd2c-4317-9003-92a916c56687\",\"916b93dc-81c8-43bd-b7aa-4388479d2f9a\",\"33b0c8db-33d4-458c-8625-dfc11fb8edd7\",\"5ecae294-d23d-4c69-84d8-9809ef95e064\",\"0b252eaa-ca63-4f90-84d1-d11ecbdacf05\",\"2072e9e6-8c2a-441b-8483-088746cec89d\",\"16c77f2d-8c32-4c78-9bb5-6ec674123056\",\"8d5b467b-699a-48c7-a063-e0e11ce75777\",\"186a145c-d721-4f0f-9951-3264452ffbd3\",\"8db5234b-2e77-4d06-9e38-28d254aef749\",\"4b639b9d-0224-4b91-bf96-5f1ad31dd492\",\"1463d9ad-cea9-4abd-b79c-c0f528e6538f\",\"293706e3-4c53-4950-9924-b6b325072c31\",\"aa6aef32-2ef3-4905-acf6-4291a744cdd8\",\"402c9372-9049-481f-8bbb-b953ab4f5df0\",\"f43096d8-b4de-4e84-96f9-b6ebbeefd43f\",\"e6bcf32d-00dc-4541-bfd1-a9e45c0cb6dd\",\"6457acd6-c33a-4c7e-ba79-c00beb47b0a1\",\"6f1e4338-a024-4483-b8c1-cbc8384dde5d\",\"76a1a65c-dc60-4f42-bef0-0aaae7297c63\",\"1944e2fe-9895-488a-8970-dcbe91af3c3b\"],\"sectionNumber\":\"COM3502.A.181975\",\"instructorId\":\"40d680db-3dc3-42d8-96cc-14e7036f83f7\",\"sectionType\":\"CourseSection\",\"gradeType\":\"Manual\"},\"course\":{\"id\":\"139baaa6-39e2-4a56-851b-038310a707bc\",\"institutionId\":\"697ada38-0a23-4834-a2db-2e9b212c7a54\",\"organizationId\":\"0708bdfb-6fd5-4e95-b16d-08c7cfabe2f6\",\"departmentId\":\"f0376604-941f-4a8b-9ba3-246975e7baad\",\"courseName\":\"Speech Processing\",\"courseIdentifier\":\"COM3502\",\"sectionCount\":2,\"createdAt\":\"2016-09-07T18:22:14.416Z\",\"updatedAt\":\"2016-09-07T18:22:14.416Z\"},\"term\":{\"id\":\"2b402334-7de2-4544-b91b-a0a3d1ef3435\",\"institutionId\":\"697ada38-0a23-4834-a2db-2e9b212c7a54\",\"name\":\"Whole Session 17-18\",\"session\":{\"startDate\":\"2017-09-04\",\"endDate\":\"2018-09-25\"},\"exceptions\":[],\"sectionCount\":6132}},\"video\":{\"current\":{\"mediaId\":\"c2f6c36c-4f8b-4511-b66e-26228b86947a\",\"primaryFiles\":[{\"s3Url\":\"https:\/\/uk-org-echo360-alpprod-eu-west-upload.s3.amazonaws.com\/fd27.697ada38-0a23-4834-a2db-2e9b212c7a54\/c2f6c36c-4f8b-4511-b66e-26228b86947a\/sd1.mp4?x-uid=767acca4-79cc-4f30-96b4-97916058bd2e&x-instid=697ada38-0a23-4834-a2db-2e9b212c7a54&x-oid=0708bdfb-6fd5-4e95-b16d-08c7cfabe2f6&x-did=f0376604-941f-4a8b-9ba3-246975e7baad&x-lid=G_5ecae294-d23d-4c69-84d8-9809ef95e064_005a9c1f-3135-4160-939d-4bc37a7cf870_2017-09-26T16%3A00%3A00.000_2017-09-26T17%3A00%3A00.000&x-sid=005a9c1f-3135-4160-939d-4bc37a7cf870&x-mid=c2f6c36c-4f8b-4511-b66e-26228b86947a&x-act=videoView&x-src=desktop\",\"width\":640,\"height\":360,\"size\":40145070},{\"s3Url\":\"https:\/\/uk-org-echo360-alpprod-eu-west-upload.s3.amazonaws.com\/fd27.697ada38-0a23-4834-a2db-2e9b212c7a54\/c2f6c36c-4f8b-4511-b66e-26228b86947a\/hd1.mp4?x-uid=767acca4-79cc-4f30-96b4-97916058bd2e&x-instid=697ada38-0a23-4834-a2db-2e9b212c7a54&x-oid=0708bdfb-6fd5-4e95-b16d-08c7cfabe2f6&x-did=f0376604-941f-4a8b-9ba3-246975e7baad&x-lid=G_5ecae294-d23d-4c69-84d8-9809ef95e064_005a9c1f-3135-4160-939d-4bc37a7cf870_2017-09-26T16%3A00%3A00.000_2017-09-26T17%3A00%3A00.000&x-sid=005a9c1f-3135-4160-939d-4bc37a7cf870&x-mid=c2f6c36c-4f8b-4511-b66e-26228b86947a&x-act=videoView&x-src=desktop\",\"width\":1280,\"height\":720,\"size\":138968798}],\"secondaryFiles\":[{\"s3Url\":\"https:\/\/uk-org-echo360-alpprod-eu-west-upload.s3.amazonaws.com\/fd27.697ada38-0a23-4834-a2db-2e9b212c7a54\/c2f6c36c-4f8b-4511-b66e-26228b86947a\/sd2.mp4?x-uid=767acca4-79cc-4f30-96b4-97916058bd2e&x-instid=697ada38-0a23-4834-a2db-2e9b212c7a54&x-oid=0708bdfb-6fd5-4e95-b16d-08c7cfabe2f6&x-did=f0376604-941f-4a8b-9ba3-246975e7baad&x-lid=G_5ecae294-d23d-4c69-84d8-9809ef95e064_005a9c1f-3135-4160-939d-4bc37a7cf870_2017-09-26T16%3A00%3A00.000_2017-09-26T17%3A00%3A00.000&x-sid=005a9c1f-3135-4160-939d-4bc37a7cf870&x-mid=c2f6c36c-4f8b-4511-b66e-26228b86947a&x-act=videoView&x-src=desktop\",\"width\":640,\"height\":360,\"size\":40052967},{\"s3Url\":\"https:\/\/uk-org-echo360-alpprod-eu-west-upload.s3.amazonaws.com\/fd27.697ada38-0a23-4834-a2db-2e9b212c7a54\/c2f6c36c-4f8b-4511-b66e-26228b86947a\/hd2.mp4?x-uid=767acca4-79cc-4f30-96b4-97916058bd2e&x-instid=697ada38-0a23-4834-a2db-2e9b212c7a54&x-oid=0708bdfb-6fd5-4e95-b16d-08c7cfabe2f6&x-did=f0376604-941f-4a8b-9ba3-246975e7baad&x-lid=G_5ecae294-d23d-4c69-84d8-9809ef95e064_005a9c1f-3135-4160-939d-4bc37a7cf870_2017-09-26T16%3A00%3A00.000_2017-09-26T17%3A00%3A00.000&x-sid=005a9c1f-3135-4160-939d-4bc37a7cf870&x-mid=c2f6c36c-4f8b-4511-b66e-26228b86947a&x-act=videoView&x-src=desktop\",\"width\":1280,\"height\":720,\"size\":88421849}],\"compositeFiles\":[],\"audioFiles\":[{\"s3Url\":\"https:\/\/uk-org-echo360-alpprod-eu-west-upload.s3.amazonaws.com\/fd27.697ada38-0a23-4834-a2db-2e9b212c7a54\/c2f6c36c-4f8b-4511-b66e-26228b86947a\/audio.mp3?x-uid=767acca4-79cc-4f30-96b4-97916058bd2e&x-instid=697ada38-0a23-4834-a2db-2e9b212c7a54&x-oid=0708bdfb-6fd5-4e95-b16d-08c7cfabe2f6&x-did=f0376604-941f-4a8b-9ba3-246975e7baad&x-lid=G_5ecae294-d23d-4c69-84d8-9809ef95e064_005a9c1f-3135-4160-939d-4bc37a7cf870_2017-09-26T16%3A00%3A00.000_2017-09-26T17%3A00%3A00.000&x-sid=005a9c1f-3135-4160-939d-4bc37a7cf870&x-mid=c2f6c36c-4f8b-4511-b66e-26228b86947a&x-act=videoView&x-src=desktop\",\"size\":42201989}],\"duration\":\"PT3596.200S\",\"primaryThumbnails\":{\"baseUrl\":\"https:\/\/uk-org-echo360-alpprod-eu-west-upload.s3.amazonaws.com\/fd27.697ada38-0a23-4834-a2db-2e9b212c7a54\/c2f6c36c-4f8b-4511-b66e-26228b86947a\/thumbnails1\",\"ext\":\"jpg\",\"thumbnailIds\":[0,60,120,180,240,300,360,420,480,540,600,660,720,780,840,900,960,1020,1080,1140,1200,1260,1320,1380,1440,1500,1560,1620,1680,1740,1800,1860,1920,1980,2040,2100,2160,2220,2280,2340,2400,2460,2520,2580,2640,2700,2760,2820,2880,2940,3000,3060,3120,3180,3240,3300,3360,3420,3480,3540,3600]},\"secondaryThumbnails\":{\"baseUrl\":\"https:\/\/uk-org-echo360-alpprod-eu-west-upload.s3.amazonaws.com\/fd27.697ada38-0a23-4834-a2db-2e9b212c7a54\/c2f6c36c-4f8b-4511-b66e-26228b86947a\/thumbnails2\",\"ext\":\"jpg\",\"thumbnailIds\":[0,60,120,180,240,300,360,420,480,540,600,660,720,780,840,900,960,1020,1080,1140,1200,1260,1320,1380,1440,1500,1560,1620,1680,1740,1800,1860,1920,1980,2040,2100,2160,2220,2280,2340,2400,2460,2520,2580,2640,2700,2760,2820,2880,2940,3000,3060,3120,3180,3240,3300,3360,3420,3480,3540,3600]},\"primaryPosterImageUri\":\"https:\/\/uk-org-echo360-alpprod-eu-west-upload.s3.amazonaws.com\/fd27.697ada38-0a23-4834-a2db-2e9b212c7a54\/c2f6c36c-4f8b-4511-b66e-26228b86947a\/poster1.jpg?x-uid=767acca4-79cc-4f30-96b4-97916058bd2e&x-instid=697ada38-0a23-4834-a2db-2e9b212c7a54&x-oid=0708bdfb-6fd5-4e95-b16d-08c7cfabe2f6&x-did=f0376604-941f-4a8b-9ba3-246975e7baad&x-lid=G_5ecae294-d23d-4c69-84d8-9809ef95e064_005a9c1f-3135-4160-939d-4bc37a7cf870_2017-09-26T16%3A00%3A00.000_2017-09-26T17%3A00%3A00.000&x-sid=005a9c1f-3135-4160-939d-4bc37a7cf870&x-mid=c2f6c36c-4f8b-4511-b66e-26228b86947a&x-act=videoView&x-src=desktop\",\"secondaryPosterImageUri\":\"https:\/\/uk-org-echo360-alpprod-eu-west-upload.s3.amazonaws.com\/fd27.697ada38-0a23-4834-a2db-2e9b212c7a54\/c2f6c36c-4f8b-4511-b66e-26228b86947a\/poster2.jpg?x-uid=767acca4-79cc-4f30-96b4-97916058bd2e&x-instid=697ada38-0a23-4834-a2db-2e9b212c7a54&x-oid=0708bdfb-6fd5-4e95-b16d-08c7cfabe2f6&x-did=f0376604-941f-4a8b-9ba3-246975e7baad&x-lid=G_5ecae294-d23d-4c69-84d8-9809ef95e064_005a9c1f-3135-4160-939d-4bc37a7cf870_2017-09-26T16%3A00%3A00.000_2017-09-26T17%3A00%3A00.000&x-sid=005a9c1f-3135-4160-939d-4bc37a7cf870&x-mid=c2f6c36c-4f8b-4511-b66e-26228b86947a&x-act=videoView&x-src=desktop\"},\"duration\":3596200,\"thumbnailUrl\":\"https:\/\/uk-org-echo360-alpprod-eu-west-upload.s3.amazonaws.com\/fd27.697ada38-0a23-4834-a2db-2e9b212c7a54\/c2f6c36c-4f8b-4511-b66e-26228b86947a\/poster1.jpg?x-uid=767acca4-79cc-4f30-96b4-97916058bd2e&x-instid=697ada38-0a23-4834-a2db-2e9b212c7a54&x-oid=0708bdfb-6fd5-4e95-b16d-08c7cfabe2f6&x-did=f0376604-941f-4a8b-9ba3-246975e7baad&x-lid=G_5ecae294-d23d-4c69-84d8-9809ef95e064_005a9c1f-3135-4160-939d-4bc37a7cf870_2017-09-26T16%3A00%3A00.000_2017-09-26T17%3A00%3A00.000&x-sid=005a9c1f-3135-4160-939d-4bc37a7cf870&x-mid=c2f6c36c-4f8b-4511-b66e-26228b86947a&x-act=videoView&x-src=desktop\",\"isAudio\":false},\"captions\":null,\"isAnonymous\":false,\"hideSectionNavigation\":false,\"publicLiveStreamAccess\":true,\"id\":\"r43f7e7b6-353a-4f4a-b2be-038f0a7f5154\"}";
+const puppeteer = require('puppeteer');
+const prompt = require('prompt');
+const fs = require('fs');
 
-const o = JSON.parse(s);
+const schema = {
+	properties: {
+		username: {
+			required: true
+		},
+		password: {
+			hidden: true,
+			required: true
+		},
+		outfile: {
+			required: true
+		},
+		modules: {
+			required: true,
+			message: "JSON array of strings of substring matching module name",
+			pattern: /\[(\".+\")+]/
+		}
+	}
+};
 
-const video = o.video;
+prompt.start();
 
-console.log(video.current.primaryFiles);
-console.log(JSON.stringify(o));
+prompt.get(schema, (err, result) => {
+	if (err) throw err;
+	const MODULES = JSON.parse(result.modules);
+
+	(async () => {
+		const browser = await puppeteer.launch({headless:false});
+		const page = await browser.newPage();
+		// page.on('console', msg => console.log('PAGE LOG:', ...msg.args));
+
+		await page.goto('https://vle.shef.ac.uk');
+
+		await page.type('#user_id', result.username);
+		await page.type('#password', result.password);
+		await page.click('#entry-login');
+		await page.waitForSelector('.portletList-img.courseListing.coursefakeclass.u_indent > li > a');
+		const modulePages = await page.$$eval(".portletList-img.courseListing.coursefakeclass.u_indent > li > a", (links, MODULES) => {
+			const keep = [];
+			for (link of links) {
+				for (module of MODULES) {
+					if (link.text.toLowerCase().indexOf(module.toLowerCase()) !== -1) {
+						const course_id = link.href.split('id=')[1].split('&')[0];
+						keep.push({
+							url: `https://vle.shef.ac.uk/webapps/osc-BasicLTI-BBLEARN/frame.jsp?course_id=${course_id}&mode=view&id=encore&globalNavigation=false`,
+							module: link.text
+						});
+						break;
+					}
+				}
+			}
+
+			return keep;
+		}, MODULES);
+		// console.log(modulePages);
+
+		const modules = await modulePages.map(async data => {
+			const { module, url } = data;
+
+			const tab = await browser.newPage();
+			await tab.goto(url);
+
+			await tab.waitForSelector('.menu.centered');
+			await tab.$eval('.menu.centered', btn => btn.click());
+
+			await tab.waitForSelector('a[aria-label="Class list"]');
+			await tab.$eval('a[aria-label="Class list"]', a => a.click());
+
+			// page $('.main-content > script')[1].innerText.split('Echo["classroomApp"]("')[1].split('      });\n')[0]
+			// JSON.parse($('.main-content > script')[1].innerText.split('["classroomApp"]("')[1].split('");\n        });')[0].replace(/\\/g, ""))
+
+			await tab.waitForSelector('.date-time');
+			const lectures = await tab.$$eval('.date-time', dts => {
+				const lecs = [];
+				var i = 0;
+				for (dt of dts) {
+					if (dt.nextSibling.className === "media-icons centered video") {
+						lecs.push({ index: i, date: dt.children[0].innerText, time: dt.children[1].innerText });
+					}
+					i++;
+				}
+				return lecs;
+			})
+			// console.log(lectures);
+
+			await tab.waitForSelector('a[aria-label="Class list"]');
+			await tab.$eval('a[aria-label="Class list"]', a => a.click());
+			for (let l = 0; l < lectures.length; l++) {
+				const lecture = lectures[l];
+
+				await tab.waitForSelector('a[aria-label="Class list"]');
+				await tab.$eval('a[aria-label="Class list"]', a => a.click());
+				await tab.waitForSelector('.date-time');
+				await tab.$$eval('.date-time', (dts, lecture) => dts[lecture.index].click(), lecture);
+				await tab.waitForNavigation();
+
+				const json = await tab.$$eval('.main-content > script', scripts => {
+					return JSON.parse(scripts[1].innerText.split('Echo["classroomApp"]("')[1].split('");\n        });')[0].replace(/\\/g, ""));
+				});
+				lecture.json = json;
+				if (!json.video) continue;
+				const videos = json.video.current.primaryFiles;
+				let minw = 99999999999;
+				let min;
+				let maxw = 0;
+				let max;
+
+				for (video of videos) {
+					if (video.width > maxw) max = video;
+					if (video.width < minw) min = video;
+				}
+
+				lecture.min = min.s3Url;
+				lecture.max = max.s3Url;
+			}
+
+			return { url, lectures, moduleName: module };
+		});
+
+		modules.forEach((module, i) => {
+			module.then(data => {
+				modules[i] = data;
+			});
+		});
+		for (module of modules) await module;
+
+		fs.writeFileSync(result.outfile, JSON.stringify(modules));
+		await browser.close();
+	})();
+});
+
+
 
