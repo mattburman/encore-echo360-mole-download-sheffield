@@ -18,4 +18,4 @@ $ node .
 It outputs A LOT of data about modules and lectures that are on MOLE.
 I suggest using [jq](https://stedolan.github.io/jq/) to simplify the output:
 
-`$ cat outfile.json|jq 'map({moduleName, url, lec: .lectures[]|{min,max,date,time}})'`
+`$ cat outfile.json|jq 'map({moduleName, url, lec: .lectures[]|{sd,hd,date,time}})'`

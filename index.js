@@ -104,18 +104,11 @@ prompt.get(schema, (err, result) => {
 				lecture.json = json;
 				if (!json.video) continue;
 				const videos = json.video.current.primaryFiles;
-				let minw = 99999999999;
-				let min;
-				let maxw = 0;
-				let max;
 
 				for (video of videos) {
-					if (video.width > maxw) max = video;
-					if (video.width < minw) min = video;
+					if (video.s3Url.indexOf("hd1.mp4") !== -1) lecture.hd = video.s3Url;
+					else if (video.s3Url.indexOf("sd1.mp4") !== -1) lecture.sd = video.s3Url;
 				}
-
-				lecture.min = min.s3Url;
-				lecture.max = max.s3Url;
 			}
 
 			return { url, lectures, moduleName: module };
