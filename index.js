@@ -1,23 +1,23 @@
-const puppeteer = require('puppeteer');
-const prompt = require('prompt');
-const fs = require('fs');
+const puppeteer = require("puppeteer");
+const prompt = require("prompt");
+const fs = require("fs");
 
 const schema = {
-	properties: {
-		username: {
-			required: true
-		},
-		password: {
-			hidden: true,
-			required: true
-		},
-		outfile: {
-			required: true
-		},
-		modules: {
-			required: true,
-			message: "JSON array of strings of substring matching module name",
-			pattern: /\[(\".+\")+]/
+  properties: {
+    username: {
+      required: true
+    },
+    password: {
+      hidden: true,
+      required: true
+    },
+    outfile: {
+      required: true
+    },
+    modules: {
+      required: true,
+      message: "JSON array of strings of substring matching module name",
+      pattern: /\[(\".+\")+]/
 		}
 	}
 };
@@ -76,7 +76,7 @@ prompt.get(schema, (err, result) => {
 			await tab.waitForSelector('.date-time');
 			const lectures = await tab.$$eval('.date-time', dts => {
 				const lecs = [];
-				var i = 0;
+				let i = 0;
 				for (dt of dts) {
 					if (dt.nextSibling.className === "media-icons centered video") {
 						lecs.push({ index: i, date: dt.children[0].innerText, time: dt.children[1].innerText });
@@ -84,7 +84,7 @@ prompt.get(schema, (err, result) => {
 					i++;
 				}
 				return lecs;
-			})
+			});
 			// console.log(lectures);
 
 			await tab.waitForSelector('a[aria-label="Class list"]');
