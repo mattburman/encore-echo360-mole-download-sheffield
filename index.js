@@ -1,6 +1,10 @@
 const puppeteer = require("puppeteer");
 const prompt = require("prompt");
 const fs = require("fs");
+const shell = require("shelljs");
+const path = require("path");
+const moment = require("moment");
+const DownloadProgress = require("download-progress");
 
 const schema = {
   properties: {
@@ -11,7 +15,7 @@ const schema = {
       hidden: true,
       required: true
     },
-    outfile: {
+    outpath: {
       required: true
     },
     modules: {
@@ -47,7 +51,8 @@ prompt.get(schema, (err, result) => {
 						const course_id = link.href.split('id=')[1].split('&')[0];
 						keep.push({
 							url: `https://vle.shef.ac.uk/webapps/osc-BasicLTI-BBLEARN/frame.jsp?course_id=${course_id}&mode=view&id=encore&globalNavigation=false`,
-							module: link.text
+							module: link.text,
+              query: module
 						});
 						break;
 					}
@@ -59,7 +64,7 @@ prompt.get(schema, (err, result) => {
 		// console.log(modulePages);
 
 		const modules = await modulePages.map(async data => {
-			const { module, url } = data;
+			const { module, url, query } = data;
 
 			const tab = await browser.newPage();
 			await tab.goto(url);
@@ -111,7 +116,7 @@ prompt.get(schema, (err, result) => {
 				}
 			}
 
-			return { url, lectures, moduleName: module };
+			return { url, lectures, moduleName: module, query };
 		});
 
 		modules.forEach((module, i) => {
@@ -121,7 +126,37 @@ prompt.get(schema, (err, result) => {
 		});
 		for (module of modules) await module;
 
-		fs.writeFileSync(result.outfile, JSON.stringify(modules));
+		const baseoutpath = path.join(__dirname, path.basename(result.outpath));
+		shell.mkdir(baseoutpath);
+		let allDownloads = [];
+		for (module of modules) {
+		  const { query, lectures } = module;
+
+		  const moduleoutpath = path.join(baseoutpath, query);
+		  shell.mkdir(moduleoutpath);
+
+		  const jsonpath = path.join(moduleoutpath, `${query}.json`);
+		  const exists = shell.ls('**/*.mp4').map(filepath => path.basename(filepath));
+		  fs.writeFileSync(jsonpath, JSON.stringify(module));
+		  const downloads = lectures
+          .sort((lec1, lec2) => moment(lec1.json.lesson.timing.start).isBefore(lec2.json.lesson.timing.start) ? -1 : 1)
+          .map((lecture, i) => Object.assign(lecture, {i, filename: `${query}-${i}-${moment(lecture.json.lesson.timing.start).format("hhaDoMMMYYYY")}.mp4`}))
+          .filter(lecture => {
+            return exists.indexOf(lecture.filename) === -1 && !!lecture.sd;
+          })
+          .map(lecture => {
+		        return {
+		          url: lecture.sd,
+              dest: path.join(moduleoutpath, lecture.filename)
+            }
+      });
+		  allDownloads.push.apply(allDownloads, downloads);
+    }
+    const download = DownloadProgress(allDownloads, {});
+		console.log(`Downloading ${allDownloads.length} lectures from ${MODULES}`);
+    download.get(err => {
+      if (err) throw new Error(err);
+    });
 		await browser.close();
 	})();
 });
