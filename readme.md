@@ -18,7 +18,7 @@ $ node .
 It outputs json files and video files in a directory structure.
 
 For module input ["text", "speech", "graphics"] and outpath videos you will get:
-
+```
 videos/
   text/
     text.json
@@ -35,7 +35,7 @@ videos/
     graphics-0-03pm25thSep2017.mp4
     ...
     graphics-9-11am23rdOct2017.mp4
-
+```
 It outputs A LOT of JSON data in the module json files.
 I suggest using [jq](https://stedolan.github.io/jq/) to simplify the output
 
