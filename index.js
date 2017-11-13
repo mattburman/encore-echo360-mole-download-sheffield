@@ -140,7 +140,7 @@ prompt.get(schema, (err, result) => {
 		  fs.writeFileSync(jsonpath, JSON.stringify(module));
 		  const downloads = lectures
           .sort((lec1, lec2) => moment(lec1.json.lesson.timing.start).isBefore(lec2.json.lesson.timing.start) ? -1 : 1)
-          .map((lecture, i) => Object.assign(lecture, {i, filename: `${query}-${i}-${moment(lecture.json.lesson.timing.start).format("hhaDoMMMYYYY")}.mp4`}))
+          .map((lecture, i) => Object.assign(lecture, {i, filename: `${query}-${i}-${moment(lecture.json.lesson.timing.start).format("YYYYMMDD-HHmm")}.mp4`}))
           .filter(lecture => {
             return exists.indexOf(lecture.filename) === -1 && !!lecture.sd;
           })
