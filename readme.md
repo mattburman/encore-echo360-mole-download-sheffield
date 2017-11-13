@@ -17,7 +17,7 @@ $ node .
 
 It outputs json files and video files in a directory structure.
 
-For module input ["text", "speech", "graphics"] and outpath videos you will get:
+For module input `["text", "speech", "graphics"]` and outpath `videos` you will get:
 ```
 videos/
   text/
