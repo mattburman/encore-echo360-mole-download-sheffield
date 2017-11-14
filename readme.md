@@ -22,19 +22,19 @@ For module input `["text", "speech", "graphics"]` and outpath `videos` you will 
 videos/
   text/
     text.json
-    text-0-11am26thSep2016.mp4
+    text-0-20160926-1100.mp4
     ...
-    text-9-03pm31stOct2017.mp4
+    text-9-20171031-1500.mp4
   speech/
     speech.json
-    speech-0-04pm26thSep2017.mp4
+    speech-0-20170926-1600.mp4
     ...
-    speech-9-04pm26thOct2017.mp4
+    speech-9-20171026-1600.mp4
   graphics/
     graphics.json
-    graphics-0-03pm25thSep2017.mp4
+    graphics-0-20170925-1500.mp4
     ...
-    graphics-9-11am23rdOct2017.mp4
+    graphics-9-20171023-1100.mp4
 ```
 It outputs A LOT of JSON data in the module json files.
 I suggest using [jq](https://stedolan.github.io/jq/) to simplify the output
